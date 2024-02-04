@@ -12,7 +12,6 @@ function Header() {
     const [searchResults, setSearchResults] = useState([]);
     const [isFiltered, setIsFiltered] = useState(false);
 
-    // Function to reset search query and navigate to the specified link
     const handleLinkClick = (link) => {
         setSearchQuery('');
         setSearchResults([]);

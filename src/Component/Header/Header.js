@@ -4,7 +4,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import './header.css';
 import Img1 from '../Logo/logo.js';
 import Logout from '../Logout/Logout.js';
-import Combine from '../SearchProduct/Combine.js';
+import SearchProduct from '../SearchProduct/SearchProduct.js';
 
 function Header() {
     const navigate = useNavigate();
@@ -135,7 +135,7 @@ function Header() {
                 </div>
             </section>
             {
-                isFiltered && searchResults.length > 0 ? <Combine productFilter={searchResults} /> : null
+                isFiltered && searchResults.length > 0 ? <SearchProduct productFilter={searchResults} /> : null
             }
         </>
     );

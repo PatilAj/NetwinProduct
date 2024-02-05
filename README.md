@@ -2,6 +2,14 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Download the zip file and extract the project in a separate folder.
+
+## Open the project folder in the VS-code editor.
+
+## Install all the dependencies listed in the package.json:
+
+### `npm install`
+
 ## Available Scripts
 
 In the project directory, you can run:
